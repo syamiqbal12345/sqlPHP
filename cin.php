@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Paspor input</title>
+    <title>STNK</title>
+    <h3>Masukkan Data STNK</h3>
 </head>
 <body>
 <form  action="input_baru.php" method="POST">
     <fieldset>
     <p>
-        <label>Name:</label>
-        <input type="text" name="full_name"/>
+        <label>No Polisi:</label>
+        <input type="text" name="nopol"/>
     </p>
     <p>
-        <label>Tanggal Lahir:</label>
-        <input type="date" name="date_birth"/>
+        <label>Nama Pemilik:</label>
+        <input type="text" name="nmpemilik"/>
     </p>
     <p>
-        <label>Tempat Lahir:</label>
-        <input type="text" name="tempat_lahir"/>
+        <label>Alamat:</label>
+        <input type="text" name="alamat"/>
     </p>
     <p>
-        <label>Jenis kelamin:</label>
-        <label><input type="radio" name="sex" value="laki-laki" /> Laki-laki</label>
-        <label><input type="radio" name="sex" value="perempuan" /> Perempuan</label>
+        <label>Merek/Type:</label>
+        <input type="text" name="merk_type"/>
     </p>
     <p>
-        <label>Kewarganegaraan :</label>
-        <input type="text" name="nationality"/>
+        <label>Jenis/Model:</label>
+        <input type="text" name="jenis_model"/>
     </p>
     <p>
-        <label>No. Paspor :</label>
-        <input type="text" name="no_paspor"/>
+        <label>Tahun Buat:</label>
+        <input type="date" name="thnbuat"/>
     </p>
-        <p>
-            <label>Type Paspor :</label>
-            <input type="text" name="jenis_type"/>
-        </p>
-    <p>
-        <label>Kode Negara :</label>
-        <input type="text" name="code_negara"/>
-    </p>
-    <p>
-        <label>Tanggal Pengeluaran Paspor :</label>
-        <input type="date" name="tgl_pengeluaran_paspor"/>
-    </p>
-    <p>
-        <label>No. Reg :</label>
-        <input type="text" name="no_reg"/>
-    </p>
-    <p>
-        <label>Tanggal Habis Berlaku :</label>
-        <input type="date" name="date_expiry_paspor"/>
-    </p>
-    <p>
-        <label>Kantor yang meneluarkan :</label>
-        <input type="text" name="issuing_office"/>
-    </p>
+     <p>
+         <label>Tahun Rakit:</label>
+         <input type="date" name="thnrakit"/>
+     </p>
+     <p>
+         <label>Isi Silinder:</label>
+         <input type="text" name="isi_silinder"/>
+     </p>
+     <p>
+         <label>Warna:</label>
+         <input type="text" name="warna"/>
+     </p>
+     <p>
+         <label>No Rangka:</label>
+         <input type="text" name="norang_nik"/>
+     </p>
+     <p>
+         <label>No Mesin:</label>
+         <input type="text" name="nomesin"/>
+     </p>
+     <p>
+         <label>No BPKB:</label>
+         <input type="text" name="nobpkb"/>
+     </p>
+     <p>
+        <label>SWDKLLJ:</label>
+        <input type="text" name="wm_tnkb"/>
+     </p>
+     <p>
+         <label>Bahan Bakar:</label>
+         <input type="text" name="bhn_bakar"/>
+     <p>
+         <label>Kode Lokasi:</label>
+         <input type="text" name="kd_lokasi"/>
+     </p>
+     <p>
+         <label>Berat Kendaraan:</label>
+         <input type="text" name="jberat"/>
+     </p>
+     <p>
+         <label>No Kohir:</label>
+         <input type="text" name="nodaf"/>
+     </p>
+     <p>
+         <label>Tanggal Berlaku:</label>
+         <input type="date" name="tgberlaku"/>
+     </p>
+     <p>
+         <label>No STNK:</label>
+         <input type="text" name="nostnk"/>
+     </p>
         <p>
             <input type="submit" name="submit" value="submit" />
         </p>
     </fieldset>
-
 </form>
 </body>
 </html>

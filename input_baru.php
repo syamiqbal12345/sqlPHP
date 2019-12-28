@@ -1,19 +1,26 @@
 <?php
 include 'masuk.php';
-$full_name               = $_POST['full_name'];
-$date_birth              = $_POST['date_birth'];
-$tempat_lahir            = $_POST['tempat_lahir'];
-$sex                     = $_POST['sex'];
-$nationality             = $_POST['nationality'];
-$no_paspor               = $_POST['no_paspor'];
-$jenis_type              = $_POST['jenis_type'];
-$code_negara             = $_POST['code_negara'];
-$tgl_pengeluaran_paspor  = $_POST['tgl_pengeluaran_paspor'];
-$no_reg                  = $_POST['no_reg'];
-$date_expiry_paspor      = $_POST['date_expiry_paspor'];
-$issuing_office          = $_POST['issuing_office'];
-$query="INSERT INTO paspor VALUES ('$full_name','$date_birth','$tempat_lahir','$sex','$nationality','$no_paspor','$jenis_type','$code_negara','$tgl_pengeluaran_paspor','$no_reg','$date_expiry_paspor','$issuing_office')";
-mysqli_query($dbconnect, $query);
+$nopol              = $_POST ['nopol'];
+$nmpemilik          = $_POST ['nmpemilik'];
+$alamat             = $_POST ['alamat'];
+$merk_type          = $_POST ['merk_type'];
+$jenis_model        = $_POST ['jenis_model'];
+$thnbuat            = $_POST ['thnbuat'];
+$thnrakit           = $_POST ['thnrakit'];
+$isi_silinder       = $_POST ['isi_silinder'];
+$warna              = $_POST ['warna'];
+$norang_nik         = $_POST ['norang_nik'];
+$nomesin            = $_POST ['nomesin'];
+$nobpkb             = $_POST ['nobpkb'];
+$wm_tnkb            = $_POST ['wm_tnkb'];
+$bhn_bakar          = $_POST ['bhn_bakar'];
+$kd_lokasi          = $_POST ['kd_lokasi'];
+$jberat             = $_POST ['jberat'];
+$nodaf              = $_POST ['nodaf'];
+$tgberlaku          = $_POST ['tgberlaku'];
+$nostnk             = $_POST ['nostnk'];
+$stnk= "INSERT INTO stnk VALUES ('$nopol','$nmpemilik','$alamat','$merk_type','$jenis_model','$thnbuat','$thnrakit','$isi_silinder','$warna','$norang_nik','$nomesin','$nobpkb','$wm_tnkb','$bhn_bakar','$kd_lokasi','$jberat','$nodaf','$tgberlaku','$nostnk')";
+mysqli_query($dbconnect, $stnk);
 if($dbconnect-> connect_error)
 {
     echo "koneksi gagal".$dbconnect ->connect_error;
