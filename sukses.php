@@ -3,7 +3,8 @@ include "masuk.php";
 $query = mysqli_query($dbconnect,"SELECT * FROM stnk ORDER BY nopol DESC");
 ?>
 <form action="" method="post">
-    <table border="1" cellpadding="0" cellspacing="0">
+    <table border="1" cellpadding="1" cellspacing="1">
+        <link href="style.css" rel="stylesheet" type="text/css">
         <tr>
             <th>No</th>
             <th>No Polisi</th>

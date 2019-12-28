@@ -1,0 +1,129 @@
+@charset "utf-8";
+nav.menu ul li {margin:0; float:left; background:#06C; width:33%; text-decoration:none; list-style:none
+}
+nav.menu ul a { padding:25px; display:block; font-weight:400; font-size:16px; color:#FFF; text-transform:uppercase; transition:all 0.5s ease; text-decoration:none;}
+nav.menu ul a:hover {text-decoration:none; background:#F00;
+}
+nav.menu ul li:hover ul {
+    display:block;
+}
+
+nav.menup ul ul {
+    display:none;
+    list-style:none;
+    position:absolute;
+    background-color:#00FFFF;
+    left:300px;
+    top:50px;
+    width:190px;
+}
+nav.menu ul ul li a {
+    float:none;
+    display:block;
+    padding-left:30px;
+    text-align:left;
+    width:160px;
+}
+nav.menu ul ul li a:hover {
+    color:#fff;
+}
+
+nav.menu ul .dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+nav.menu ul a:hover .dropdown-child {
+    display: block;
+}
+table { border-collapse:collapse; width:96%; margin-left:40px; bordercolor="#00CCFF"
+}
+th, td { padding:8px; }
+tr {border-color:#0FF; font:Tahoma, Geneva, sans-serif;}
+th {border-color:#09C;}
+footer {background-color:#09C; width:96%; alignment-adjust:central;  margin-left:40px; vertical-align:central; text-align:center; font:"MS Serif", "New York", serif}
+.txtktk {border-color:#0FF; }
+h2 {font:"Times New Roman", Times, serif; text-decoration:blink; color:#F00; text-shadow:#0F6; }
+.btn {border-bottom-color:#0F9; width:auto; height:auto; font:"Palatino Linotype", "Book Antiqua", Palatino, serif; background-color:#0FF; margin-left:5px}
+
+h2{
+    background-color: #e83e8c;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    color: #fff;
+}
+span{
+    display: block;
+    margin-bottom: 20px;
+    color: red;
+}
+.success{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+b{
+    color:black;
+}
+hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+div.main{
+    width: 306px;
+    padding: 10px 50px 30px;
+    border: 2px solid gray;
+    font-family: raleway;
+    float:left;
+    margin-top:15px;
+}
+input[type=text]{
+    width: 96%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #000000;
+    font-size: 16px;
+}
+input[type=password]{
+    width: 96%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #53bd84;
+    font-size: 16px;
+}
+label{
+    color: #000000;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#profile {
+    padding:50px;
+    border:1px solid grey;
+    font-size:20px;
+    background-color:#A2DED0;
+}
+a {
+    text-decoration:none;
+    color:#a71d2a;
+}
+i {
+    color:#000000;
+}

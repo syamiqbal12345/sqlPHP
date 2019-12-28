@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>STNK</title>
+
     <h3>Masukkan Data STNK</h3>
-</head>
+    </head>
+<link href="style.css" rel="stylesheet" type="text/css">
 <body>
 <form  action="input_baru.php" method="POST">
     <fieldset>
